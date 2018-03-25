@@ -1,5 +1,4 @@
 import itertools
-#how could i possibly do this without itertools? :( & Google XD
 
 def gen_passcode(keyword):
     """
