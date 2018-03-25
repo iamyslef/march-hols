@@ -1,10 +1,12 @@
 import random, sys
+#my code is so bad
+#i don't know how to program well
+#time to read more
 print("Let us play a game. I'm thinking of a number between 1-100. You have 7 guesses.")
 number = random.randint(1,100)
 def guessy(guesses):
     if guesses < 1 or guesses > 100:
         print("That's not between 1-100!")
-
     elif guesses > number:
         print("Your guess is too high!")
     elif guesses < number:
